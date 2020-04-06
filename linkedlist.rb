@@ -1,6 +1,4 @@
 class LinkedList
-<<<<<<< HEAD
-=======
 
   # node class initialized in the LinkedList class
   class Node
@@ -16,7 +14,6 @@ class LinkedList
     end
   end
 
->>>>>>> 97907bf... linked list project complete
   attr_reader :head
 
   def initialize (value = nil)
@@ -116,21 +113,6 @@ class LinkedList
     prev.next_node = node.next_node
   end
 
-<<<<<<< HEAD
-  class Node
-    def initialize(value = nil, next_node = nil)
-      @value = value
-      @next_node = next_node
-    end
-    attr_accessor :value
-    attr_accessor :next_node
-
-    def to_s
-      @value
-    end
-  end
-=======
->>>>>>> 97907bf... linked list project complete
 end
 
 list = LinkedList.new('Olalekan')
